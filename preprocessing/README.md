@@ -19,6 +19,7 @@ Hounsfield 단위(HU)는 의료 CT 이미지의 그레이 스케일을 구성합
 
 일반적으로 금속 임플란트의 Hounsfield 단위는 매우 높습니다. 따라서 일반적인 12비트 CT 스캔(3071)의 최대 값에 기인합니다.
 ```
+![ct](https://user-images.githubusercontent.com/53938323/179692161-43f0c064-423b-4bc7-ae50-13530074d16a.gif)
 
 ```
 $ pip install tensorflow
