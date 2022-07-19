@@ -9,6 +9,10 @@ ML 모델, 전처리 코드
 ## ```Raw Dataset```
 ### ```1. Dicom file```
 
-    
-        what is dicom file?
-    
+To install the current release, which includes support for
+[CUDA-enabled GPU cards](https://www.tensorflow.org/install/gpu) *(Ubuntu and
+Windows)*:
+
+```
+$ pip install tensorflow
+```
