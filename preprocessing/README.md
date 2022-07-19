@@ -9,6 +9,6 @@ ML 모델, 전처리 코드
 ## `Raw Dataset`
 ### ```1. Dicom file```
 
-    ```
+    `
         what is dicom file?
-    ```
+    `
