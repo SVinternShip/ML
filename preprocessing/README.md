@@ -7,5 +7,6 @@ ML 모델, 전처리 코드
     3. 전처리된 이미지와 rescale 된 이미지를 모델과 Lime explainer 에 입력하여 예측값과 Lime 이미지를 반환
 
 ## `Raw Dataset`
-    1. Dicom file
+### `1. Dicom file`
+
         `what is dicom file?`
