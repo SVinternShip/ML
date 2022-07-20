@@ -1,5 +1,4 @@
 
-
 ## *```Code description``*
 
 #### Remove Bad Image Dataset
