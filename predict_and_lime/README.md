@@ -2,7 +2,7 @@
 
 ## *```Code description``*
 
-#### Remove Bad Image Dataset
+#### predict module
     Images (blank image and terminal photographing image) that are not helpful for learning are excluded from learning.
 
 #### Load Train Dataset
