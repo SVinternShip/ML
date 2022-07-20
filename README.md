@@ -29,7 +29,8 @@ Inception v3은 ImageNet 데이터 세트에서 정확도가 78.1% 이상인 것
     1. Global average pooling layer 추가
     2. Drop out 50% 적용
     3. 일반 0,1 분류대신에 sigmoid 사용(추후 threshold 추가 예정)
-    
+
+<img src = "https://user-images.githubusercontent.com/53938323/179889568-2afd363b-741d-4a73-a877-a17ddfcbde40.png" width="30%" height="30%">
 
 #### 불량 데이터셋 제거(약 6,000장 제거)
 
@@ -39,6 +40,12 @@ Inception v3은 ImageNet 데이터 세트에서 정확도가 78.1% 이상인 것
 <img src = "https://user-images.githubusercontent.com/53938323/179888566-0fc82b48-5d2b-411c-82b6-65055f72cfe7.png" width="30%" height="30%">
 
 #### 학습 결과
+
+##### ```Before Customizing```
+![image](https://user-images.githubusercontent.com/53938323/179889644-049d8dcf-b5d4-4c44-9ad7-bf6ec2811db0.png)
+
+##### ```After Customizing```
+![image](https://user-images.githubusercontent.com/53938323/179889919-e9f8efd1-4810-4ef9-9b33-e6c8dd6679d3.png)
 
 
     
