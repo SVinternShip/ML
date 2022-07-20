@@ -29,6 +29,7 @@
 
 #### Training Model
 
+
 ##### ```Before Customizing```
     Epoch 1/10
     9514/9514 [==============================] - 616s 65ms/step - loss: 0.3468 - accuracy: 0.8492 - val_loss: 0.3483 - val_accuracy: 0.8457
