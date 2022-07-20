@@ -27,3 +27,4 @@ The Hounsfield Unit (HU) constitutes the gray scale of the medical CT image. A s
 Using the gray scale image based on the HU, each tissue/organ (brain, soft tissue, bleeding area, etc.) has a certain range in the HU,
 It was converted to a color image of a 3-channel. (Additionally, ResNET and InceptionNet receive the 3-channel image as input.)
 
+
