@@ -62,25 +62,26 @@
 <img src = "https://user-images.githubusercontent.com/53938323/179888566-0fc82b48-5d2b-411c-82b6-65055f72cfe7.png" width="30%" height="30%">
 
 ##### ```After Customizing```
-    Epoch 1/10
-    9212/9212 [==============================] - 921s 99ms/step - loss: 0.3595 - binary_accuracy: 0.8456 - val_loss: 0.3123 - val_binary_accuracy: 0.8700 - _timestamp: 1657823605.0000 - _runtime: 921.0000
+    10364/10364 [==============================] - 1015s 97ms/step - loss: 0.4067 - binary_accuracy: 0.8149 - val_loss: 0.3050 - val_binary_accuracy: 0.8757 - _timestamp: 1658302150.0000 - _runtime: 1018.0000
     Epoch 2/10
-    9212/9212 [==============================] - 915s 99ms/step - loss: 0.2924 - binary_accuracy: 0.8811 - val_loss: 0.2425 - val_binary_accuracy: 0.9070 - _timestamp: 1657824521.0000 - _runtime: 1837.0000
+    10364/10364 [==============================] - 974s 94ms/step - loss: 0.3309 - binary_accuracy: 0.8595 - val_loss: 0.2593 - val_binary_accuracy: 0.8996 - _timestamp: 1658303125.0000 - _runtime: 1993.0000
     Epoch 3/10
-    9212/9212 [==============================] - 917s 100ms/step - loss: 0.2638 - binary_accuracy: 0.8958 - val_loss: 0.2364 - val_binary_accuracy: 0.9108 - _timestamp: 1657825438.0000 - _runtime: 2754.0000
+    10364/10364 [==============================] - 964s 93ms/step - loss: 0.2991 - binary_accuracy: 0.8762 - val_loss: 0.2599 - val_binary_accuracy: 0.9001 - _timestamp: 1658304089.0000 - _runtime: 2957.0000
     Epoch 4/10
-    9212/9212 [==============================] - 869s 94ms/step - loss: 0.2430 - binary_accuracy: 0.9048 - val_loss: 0.2175 - val_binary_accuracy: 0.9239 - _timestamp: 1657826307.0000 - _runtime: 3623.0000
+    10364/10364 [==============================] - 968s 93ms/step - loss: 0.2775 - binary_accuracy: 0.8869 - val_loss: 0.2672 - val_binary_accuracy: 0.8901 - _timestamp: 1658305057.0000 - _runtime: 3925.0000
     Epoch 5/10
-    9212/9212 [==============================] - 861s 93ms/step - loss: 0.2249 - binary_accuracy: 0.9131 - val_loss: 0.2136 - val_binary_accuracy: 0.9233 - _timestamp: 1657827168.0000 - _runtime: 4484.0000
+    10364/10364 [==============================] - 1006s 97ms/step - loss: 0.2591 - binary_accuracy: 0.8965 - val_loss: 0.2415 - val_binary_accuracy: 0.9103 - _timestamp: 1658306063.0000 - _runtime: 4931.0000
     Epoch 6/10
-    9212/9212 [==============================] - 890s 97ms/step - loss: 0.2058 - binary_accuracy: 0.9219 - val_loss: 0.2077 - val_binary_accuracy: 0.9261 - _timestamp: 1657828057.0000 - _runtime: 5373.0000
+    10364/10364 [==============================] - 984s 95ms/step - loss: 0.2394 - binary_accuracy: 0.9043 - val_loss: 0.2347 - val_binary_accuracy: 0.9155 - _timestamp: 1658307047.0000 - _runtime: 5915.0000
     Epoch 7/10
-    9212/9212 [==============================] - 908s 99ms/step - loss: 0.1848 - binary_accuracy: 0.9308 - val_loss: 0.2147 - val_binary_accuracy: 0.9244 - _timestamp: 1657828966.0000 - _runtime: 6282.0000
+    10364/10364 [==============================] - 990s 96ms/step - loss: 0.2168 - binary_accuracy: 0.9140 - val_loss: 0.2345 - val_binary_accuracy: 0.9165 - _timestamp: 1658308037.0000 - _runtime: 6905.0000
     Epoch 8/10
-    9212/9212 [==============================] - 903s 98ms/step - loss: 0.1630 - binary_accuracy: 0.9399 - val_loss: 0.2222 - val_binary_accuracy: 0.9241 - _timestamp: 1657829869.0000 - _runtime: 7185.0000
+    10364/10364 [==============================] - 963s 93ms/step - loss: 0.1915 - binary_accuracy: 0.9249 - val_loss: 0.2473 - val_binary_accuracy: 0.9140 - _timestamp: 1658309001.0000 - _runtime: 7869.0000
     Epoch 9/10
-    9212/9212 [==============================] - 908s 99ms/step - loss: 0.1403 - binary_accuracy: 0.9488 - val_loss: 0.2240 - val_binary_accuracy: 0.9214 - _timestamp: 1657830778.0000 - _runtime: 8094.0000
-
+    10364/10364 [==============================] - 944s 91ms/step - loss: 0.1635 - binary_accuracy: 0.9367 - val_loss: 0.2619 - val_binary_accuracy: 0.9135 - _timestamp: 1658309945.0000 - _runtime: 8813.0000
+    Epoch 10/10
+    10364/10364 [==============================] - 946s 91ms/step - loss: 0.1357 - binary_accuracy: 0.9473 - val_loss: 0.3062 - val_binary_accuracy: 0.9118 - _timestamp: 1658310891.0000 - _runtime: 9759.0000
+    
 <img src = "https://user-images.githubusercontent.com/53938323/179889919-e9f8efd1-4810-4ef9-9b33-e6c8dd6679d3.png" width="30%" height="30%">
 
 
