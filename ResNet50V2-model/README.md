@@ -12,7 +12,7 @@
     Set class mode as binary.(Brain hemorrhage vs normal classification)
 
 #### Model Architecture
-    base model : InceptionNet V3
+    base model : ResNet50 V2
     + Global averaging pooling layer
     + Drop Out : 50%
     + Sigmoid layer [0,1]

@@ -3,7 +3,8 @@
 ## *```Code description``*
 
 #### predict module
-    Images (blank image and terminal photographing image) that are not helpful for learning are excluded from learning.
+    *window_image(dcm파일,center,width)* : 해당 dicom 파일에서, center 기준으로 width의 절반만큼 내 범위의 픽셀값(HU 기반)을 추출한다.
+    
 
 #### Load Train Dataset
     Loads the dataset through the ImageDataGenerator. Set ratio "Train : validation = 4 : 1 "
