@@ -1,4 +1,24 @@
+
+
+## *```Code description``*
+
+#### *```불량한 이미지 데이터셋 제거```*
+    학습에 도움이 되지 않는 이미지들(공백 이미지, 말단 촬영 이미지)은 학습에서 제외한다.
+
+#### *```학습 데이터셋 로드```*
+    ImageDataGenerator 를 통해 데이터셋을 불러온다. train : validation = 4 : 1 비로 설정했다.
+    각 이미지 픽셀값은 0 ~ 1 로 rescale.
+    원본 이미지는 (512,512), 불러올때는 이미지 사이즈 (224,224)로 resize.
+    뇌출혈 vs 정상 분류이므로 binary 로 class mode 를 설정.
+
+#### *```모델 설계```*
+    base model : InceptionNet V3
+    + Global averaging pooling layer
+    + Drop Out : 50%
+    + Sigmoid layer [0,1]
+
 ## *```Model description``*
+
 ### ```InceptionNet V3```
 
 #### 모델 조건
