@@ -18,5 +18,8 @@
 
 ##### ```Lime Masking```
     
-<img src = "https://user-images.githubusercontent.com/53938323/179889919-e9f8efd1-4810-4ef9-9b33-e6c8dd6679d3.png" width="30%" height="30%">
+<img src = "https://github.com/SVinternShip/ML/blob/5fb98449d53f29e5911c823a9d19f2cea7d9f5df/predict_and_lime/lime_original.png" width="30%" height="30%">
+<img src = "https://github.com/SVinternShip/ML/blob/5fb98449d53f29e5911c823a9d19f2cea7d9f5df/predict_and_lime/lime_red_masking.png" width="30%" height="30%">
+<img src = "https://github.com/SVinternShip/ML/blob/5fb98449d53f29e5911c823a9d19f2cea7d9f5df/predict_and_lime/lime_skelton.png" width="30%" height="30%">
+<img src = "https://github.com/SVinternShip/ML/blob/5fb98449d53f29e5911c823a9d19f2cea7d9f5df/predict_and_lime/original_image.png" width="30%" height="30%">
 
