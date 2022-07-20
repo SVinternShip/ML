@@ -55,7 +55,7 @@
 
 ##### Remove bad datasets (approximately 6,000 images removed)
 
-    1. 학습에 방해가 되는 데이터셋들을 제거하였다. 
+    1. Remove datasets that interfere with learning
 
 <img src = "https://user-images.githubusercontent.com/53938323/179888528-4a2555f9-2046-43f7-b0fa-c1a89c50429f.png" width="30%" height="30%">
 <img src = "https://user-images.githubusercontent.com/53938323/179888566-0fc82b48-5d2b-411c-82b6-65055f72cfe7.png" width="30%" height="30%">
