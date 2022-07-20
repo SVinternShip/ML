@@ -42,10 +42,10 @@ Inception v3은 ImageNet 데이터 세트에서 정확도가 78.1% 이상인 것
 #### 학습 결과
 
 ##### ```Before Customizing```
-![image](https://user-images.githubusercontent.com/53938323/179889644-049d8dcf-b5d4-4c44-9ad7-bf6ec2811db0.png)
+
+<img src = "https://user-images.githubusercontent.com/53938323/179889644-049d8dcf-b5d4-4c44-9ad7-bf6ec2811db0.png" width="30%" height="30%">
 
 ##### ```After Customizing```
-![image](https://user-images.githubusercontent.com/53938323/179889919-e9f8efd1-4810-4ef9-9b33-e6c8dd6679d3.png)
 
-
+<img src = "https://user-images.githubusercontent.com/53938323/179889919-e9f8efd1-4810-4ef9-9b33-e6c8dd6679d3.png" width="30%" height="30%">
     
