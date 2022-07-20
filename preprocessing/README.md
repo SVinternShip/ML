@@ -21,6 +21,6 @@ Hounsfield 단위(HU)는 의료 CT 이미지의 그레이 스케일을 구성합
 ```
 ![ct](https://user-images.githubusercontent.com/53938323/179692161-43f0c064-423b-4bc7-ae50-13530074d16a.gif)
 
-```
-$ pip install tensorflow
-```
+
+## *```Data Preprocessing```*
+### ```gray(1-channel) to color(3-channel)```
