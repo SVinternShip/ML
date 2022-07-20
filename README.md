@@ -1,7 +1,14 @@
 ## *```Model description``*
 ### ```InceptionNet V3```
 
-Dicom file 은 의학계에서 사용하는 이미지 파일 형태로서, 각 픽셀값들은 Hounsfield Unit(일명 HU)을 따른다.
+#### 모델 조건
+
+    1. 충분히 많은 데이터셋이 있지만 학습 시간을 줄이기 위해 전이학습이 필요
+    2. 가진 환경(서버 및 학습 환경)에 맞게 빠른 추론이 가능하고 충분히 가벼운가? - 모델 구조가 간단해야 XAI의 도입이 가능함
+
+![image](https://user-images.githubusercontent.com/53938323/179887853-83a2478f-c7e1-43cb-94e9-9708f0dddd53.png)
+
+
 
 *[InceptionNet V3]*(https://cloud.google.com/tpu/docs/inception-v3-advanced?hl=ko):
 ```
