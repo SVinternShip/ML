@@ -25,6 +25,11 @@ Inception v3은 ImageNet 데이터 세트에서 정확도가 78.1% 이상인 것
 ### ```Model Customizing```
 
 #### 출력층 layer 추가
+    
+    1. Global average pooling layer 추가
+    2. Drop out 50% 적용
+    3. 일반 0,1 분류대신에 sigmoid 사용(추후 threshold 추가 예정)
+    
 
 #### 불량 데이터셋 제거(약 6,000장 제거)
 
@@ -32,4 +37,8 @@ Inception v3은 ImageNet 데이터 세트에서 정확도가 78.1% 이상인 것
  
 <img src = "https://user-images.githubusercontent.com/53938323/179888528-4a2555f9-2046-43f7-b0fa-c1a89c50429f.png" width="30%" height="30%">
 <img src = "https://user-images.githubusercontent.com/53938323/179888566-0fc82b48-5d2b-411c-82b6-65055f72cfe7.png" width="30%" height="30%">
+
+#### 학습 결과
+
+
     
