@@ -28,6 +28,39 @@
     initial accuracy: 0.53
 
 #### 모델 train
+
+##### ```Before Customizing```
+    Epoch 1/10
+    9514/9514 [==============================] - 616s 65ms/step - loss: 0.3468 - accuracy: 0.8492 - val_loss: 0.3483 - val_accuracy: 0.8457
+    Epoch 2/10
+    9514/9514 [==============================] - 649s 68ms/step - loss: 0.3250 - accuracy: 0.8606 - val_loss: 0.3407 - val_accuracy: 0.8518
+    Epoch 3/10
+    9514/9514 [==============================] - 681s 72ms/step - loss: 0.3118 - accuracy: 0.8669 - val_loss: 0.3242 - val_accuracy: 0.8633
+    Epoch 4/10
+    9514/9514 [==============================] - 671s 71ms/step - loss: 0.3004 - accuracy: 0.8730 - val_loss: 0.3258 - val_accuracy: 0.8647
+    Epoch 5/10
+    9514/9514 [==============================] - 663s 70ms/step - loss: 0.2900 - accuracy: 0.8785 - val_loss: 0.3169 - val_accuracy: 0.8663
+    Epoch 6/10
+    9514/9514 [==============================] - 630s 66ms/step - loss: 0.2811 - accuracy: 0.8827 - val_loss: 0.3146 - val_accuracy: 0.8701
+    Epoch 7/10
+    9514/9514 [==============================] - 658s 69ms/step - loss: 0.2721 - accuracy: 0.8867 - val_loss: 0.3183 - val_accuracy: 0.8715
+    Epoch 8/10
+    9514/9514 [==============================] - 673s 71ms/step - loss: 0.2658 - accuracy: 0.8895 - val_loss: 0.3243 - val_accuracy: 0.8707
+    Epoch 9/10
+    9514/9514 [==============================] - 672s 71ms/step - loss: 0.2559 - accuracy: 0.8942 - val_loss: 0.3125 - val_accuracy: 0.8722
+    Epoch 10/10
+    9514/9514 [==============================] - 658s 69ms/step - loss: 0.2505 - accuracy: 0.8962 - val_loss: 0.3453 - val_accuracy: 0.8643
+
+<img src = "https://user-images.githubusercontent.com/53938323/179889644-049d8dcf-b5d4-4c44-9ad7-bf6ec2811db0.png" width="30%" height="30%">
+
+##### 불량 데이터셋 제거(약 6,000장 제거)
+
+    1. 학습에 방해가 되는 데이터셋들을 제거하였다. 
+
+<img src = "https://user-images.githubusercontent.com/53938323/179888528-4a2555f9-2046-43f7-b0fa-c1a89c50429f.png" width="30%" height="30%">
+<img src = "https://user-images.githubusercontent.com/53938323/179888566-0fc82b48-5d2b-411c-82b6-65055f72cfe7.png" width="30%" height="30%">
+
+##### ```After Customizing```
     Epoch 1/10
     9212/9212 [==============================] - 921s 99ms/step - loss: 0.3595 - binary_accuracy: 0.8456 - val_loss: 0.3123 - val_binary_accuracy: 0.8700 - _timestamp: 1657823605.0000 - _runtime: 921.0000
     Epoch 2/10
@@ -47,9 +80,10 @@
     Epoch 9/10
     9212/9212 [==============================] - 908s 99ms/step - loss: 0.1403 - binary_accuracy: 0.9488 - val_loss: 0.2240 - val_binary_accuracy: 0.9214 - _timestamp: 1657830778.0000 - _runtime: 8094.0000
 
-## *```Model description``*
+<img src = "https://user-images.githubusercontent.com/53938323/179889919-e9f8efd1-4810-4ef9-9b33-e6c8dd6679d3.png" width="30%" height="30%">
 
-### ```InceptionNet V3```
+
+
 
 #### 모델 조건
 
@@ -84,13 +118,4 @@ Inception v3은 ImageNet 데이터 세트에서 정확도가 78.1% 이상인 것
 <img src = "https://user-images.githubusercontent.com/53938323/179888528-4a2555f9-2046-43f7-b0fa-c1a89c50429f.png" width="30%" height="30%">
 <img src = "https://user-images.githubusercontent.com/53938323/179888566-0fc82b48-5d2b-411c-82b6-65055f72cfe7.png" width="30%" height="30%">
 
-#### 학습 결과
-
-##### ```Before Customizing```
-
-<img src = "https://user-images.githubusercontent.com/53938323/179889644-049d8dcf-b5d4-4c44-9ad7-bf6ec2811db0.png" width="30%" height="30%">
-
-##### ```After Customizing```
-
-<img src = "https://user-images.githubusercontent.com/53938323/179889919-e9f8efd1-4810-4ef9-9b33-e6c8dd6679d3.png" width="30%" height="30%">
     
