@@ -5,6 +5,12 @@
     3. Enter the pre-processed image and the scaled image into the model and Lime expander to return the predicted value and Lime image
 
 ## *```Raw Dataset```*
+
+### ```Data Source```
+
+    RSNA Intracranial Hemorrhage Detection
+    https://www.kaggle.com/competitions/rsna-intracranial-hemorrhage-detection/data
+
 ### ```Dicom file```
 
 Dicom file is an image file type used in the medical community, and each pixel value follows the Hounsfield Unit (HU).
