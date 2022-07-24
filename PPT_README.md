@@ -70,6 +70,20 @@ GAP
 
 모델 구조
 ![image](https://user-images.githubusercontent.com/53938323/180635777-3664bf8f-3815-47bf-ab2e-da97d470715b.png)
+![image](https://user-images.githubusercontent.com/53938323/180636147-eac35643-9505-4935-a23c-72548b52da79.png)
+
+Accuracy & Loss
+![image](https://user-images.githubusercontent.com/53938323/180636180-1ac2dcab-964c-450b-9cd0-703060828d67.png)
+
+그외 지표들
+(Precision, Recall, f1 - score ...)
+Precision : 모델이 예측한 것이 실제로 맞는가
+Recall : 실제로 모델이 예측한 것이 맞는 정도
+F1-Score : Precision 과 Recall 짬뽕한 지표 
+
+실제로는 뇌출혈(양성,Positive)인데, 정상(음성,Negative)이라 예측하는 위음성(False Negative) Precentage 가 낮음 : 4.76% 
+
+![image](https://user-images.githubusercontent.com/53938323/180636239-ffc1fdff-941f-4b93-9742-cdcdd7b5714e.png)
 
 
 
