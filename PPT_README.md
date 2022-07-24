@@ -82,7 +82,7 @@ Recall : 실제로 모델이 예측한 것이 맞는 정도
 F1-Score : Precision 과 Recall 짬뽕한 지표 
 
 실제로는 뇌출혈(양성,Positive)인데, 정상(음성,Negative)이라 예측하는 위음성(False Negative) Precentage 가 낮음 : 4.76% 
-
+Confusion Matrix 값이 바뀌었기 때문에 곧 수정 예정.
 ![image](https://user-images.githubusercontent.com/53938323/180636239-ffc1fdff-941f-4b93-9742-cdcdd7b5714e.png)
 
 
