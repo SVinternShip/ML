@@ -90,7 +90,15 @@ Confusion Matrix 값이 바뀌었기 때문에 곧 수정 예정.
 ## *W&B 를 통한 버전 및 학습환경관리 및 모델 공유 *
 
 모델의 버전 관리 가능
+![image](https://user-images.githubusercontent.com/53938323/180636544-0de23e52-225c-4f18-bab9-7c472df2d58c.png)
 
 모델 학습 환경 모니터링
+![image](https://user-images.githubusercontent.com/53938323/180636555-0d2d43c3-5e5e-4f5e-8268-1aff61e8c202.png)
+![image](https://user-images.githubusercontent.com/53938323/180636566-6c5f676e-bf1c-4276-938c-f8e5cd42aa3f.png)
 
-모델 저장 및 구조 확인 가능
+모델 저장 및 NETRON 기반 구조 확인 가능
+![image](https://user-images.githubusercontent.com/53938323/180636590-85da953f-eff4-4ebd-a573-bcb49bf897b2.png)
+
+![image](https://user-images.githubusercontent.com/53938323/180636604-da1dbf22-8cc2-4f72-b93f-1a710dedde73.png)
+
+
