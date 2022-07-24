@@ -12,7 +12,7 @@
 
     DICOM FILE 의 픽셀값들은 하운스필드 유닛을 따름.(약 -1,000 ~ 약 3,000) <=> 일반 이미지 (0 ~ 255) : https://www.materialise.com/ko/faq/hounsfield-danwihulan
     각 조직별로 HU 범위가 어느정도 정해져있음.
-    
+![image](https://user-images.githubusercontent.com/53938323/180634915-18084174-0ae6-4424-8fbd-12559a013bf8.png)   
 ![image](https://user-images.githubusercontent.com/53938323/180634801-c47fd1f4-6ebd-4474-8116-0972885394e8.png)
 ![image](https://user-images.githubusercontent.com/53938323/180634815-98d944f6-ae7c-406b-bc6f-3d47ca28b69b.png)
 
@@ -21,12 +21,27 @@
 
     일반적인 이미지로 시각화를 하기 위해서 (약 -1,000 ~ 약 3,000) 의 범위에 있는 픽셀값들을 0 ~ 255 로 정규화
 
+    ![image](https://user-images.githubusercontent.com/53938323/180634936-0c89ebb9-d4ff-4bb0-bf16-c0cf61994c25.png)
 
 ## *데이터 전처리*
 
 #### 데이터 균일화 : 언더샘플링(Under Sampling)
     정상데이터셋, 뇌출혈데이터셋 원래 비율 이미지
+    정상 데이터셋   : 3814760장
+    뇌출혈 데이터셋 : 230812장
+    정상 : 이상 = 16 : 1     => 매우 심하게 불균일한 데이터셋
+    이대로 학습할 경우, 모델은 정상 데이터셋을 맞추는것에 '편향'되어 학습한다.(전부 정상이라 예측해도 정확도는 16/17*100 = 94%)
+    이럴때에는 loss 함수를 dice loss 로 바꾸어도 되지만,
+    뇌 CT 이미지는 각도나 넓이 등을 고려하더라도 거의 유사하다는 성질을 고려하여, Undersampling 을 진행하였다. 
+    
+    왜 Under Sampling 을 하였는가?
+    K Fold , OverSampling 등 다양한 선택지가 있지만, 한정된 GPU 환경에서 10만장으로도 몇 시간 소요되므로 데이터셋을 줄이는것이 효울적임.
+    그리고 실제로 UnderSampling 한 결과, 정확도는 92.8% 나오므로 문제는 없다.
+    
+![image](https://user-images.githubusercontent.com/53938323/180634984-e683baa9-7627-4e29-b714-7bd6dbef98dd.png)
+
     정상데이터셋, 뇌출혈데이터셋 1 : 1 맞춘 이미지(갯수 표시)
+    
 
 #### Gray(1-channel) 2 Color(3-channels)
     회색 이미지 > 3 channel 이미지로 바뀌는거 보여주기
