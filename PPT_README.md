@@ -44,7 +44,9 @@
     
 
 #### Gray(1-channel) 2 Color(3-channels)
-    회색 이미지 > 3 channel 이미지로 바뀌는거 보여주기
+    Brain , Subdural, Soft 의 HU 범위에 있는 픽셀값들만 추출해서 R G B 채널로 만들고 하나의 컬러 이미지로 전처리.
+![image](https://user-images.githubusercontent.com/53938323/180635527-5634486f-24b8-4326-aa74-4b6240e0cef2.png)
+
     
 #### 데이터 정규화(Normalization)
     음... 0 , 255 , 127 이 있는 픽셀들이
