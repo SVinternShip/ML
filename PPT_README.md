@@ -45,15 +45,31 @@
 
 #### Gray(1-channel) 2 Color(3-channels)
     Brain , Subdural, Soft 의 HU 범위에 있는 픽셀값들만 추출해서 R G B 채널로 만들고 하나의 컬러 이미지로 전처리.
-![image](https://user-images.githubusercontent.com/53938323/180635527-5634486f-24b8-4326-aa74-4b6240e0cef2.png)
+![image](https://user-images.githubusercontent.com/53938323/180635631-bb138810-5eda-4386-9730-c82d2e4de0b3.png)
 
-    
+  
 #### 데이터 정규화(Normalization)
-    음... 0 , 255 , 127 이 있는 픽셀들이
-    0,1,0.5 가 있는 픽셀들로 바뀌는 이미지 2개
+
+![image](https://user-images.githubusercontent.com/53938323/180635738-3c25d57e-c297-4a44-8fa0-93639475b052.png)
+
 
 ## *모델 아키텍쳐*
 
+    Inception V3 모델
+    출력층에 Global Averge Pooling Layer 추가 + Drop out 50% 반영
+    
+    1. GAP 추가 이유
+    합성곱 신경망의 특성상, 필터에 의해 feature map 이 매우 커짐 => over fitting 발생.
+    극단적으로 1차원 벡터로 줄여주는 GAP를 통해 해결.
+    
+    2. Drop Out 50% 반영 이유
+    똑같이 over fitting 문제 해결(일반적으로 50% 에서 효과가 좋음)
+    
+GAP
+![image](https://user-images.githubusercontent.com/53938323/180635855-c2b9c97f-a9ed-48d0-976f-883e44fec892.png)
+
+모델 구조
+![image](https://user-images.githubusercontent.com/53938323/180635777-3664bf8f-3815-47bf-ab2e-da97d470715b.png)
 
 
 
