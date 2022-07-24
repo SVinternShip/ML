@@ -2,6 +2,12 @@
 ## *ML 데이터셋*
 
 #### 데이터 출처
+
+    RSNA(북미영상의학회)
+    https://www.kaggle.com/competitions/rsna-intracranial-hemorrhage-detection
+    
+    뇌 CT 촬영 DICOM 파일 : 약 450 GB
+    
 #### 데이터셋 설명
 #### 데이터 시각화
 
