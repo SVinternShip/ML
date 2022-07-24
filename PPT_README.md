@@ -21,7 +21,7 @@
 
     일반적인 이미지로 시각화를 하기 위해서 (약 -1,000 ~ 약 3,000) 의 범위에 있는 픽셀값들을 0 ~ 255 로 정규화
 
-    ![image](https://user-images.githubusercontent.com/53938323/180634936-0c89ebb9-d4ff-4bb0-bf16-c0cf61994c25.png)
+![image](https://user-images.githubusercontent.com/53938323/180634936-0c89ebb9-d4ff-4bb0-bf16-c0cf61994c25.png)
 
 ## *데이터 전처리*
 
