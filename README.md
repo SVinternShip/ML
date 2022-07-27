@@ -35,36 +35,31 @@ $ pip3 install requirements.txt
 ```
 ## 4. File Manifest && API
 ```
-├── README.md
-├── backend
-│   ├── ai
-│   ├── api
-│   ├── db.sqlite3
-│   ├── dockerfile
-│   ├── lego2me
-│   ├── manage.py
-│   └── requirements.txt
-├── docker-compose.prod.yml
-├── docker-compose.yml
-├── frontend
-│   ├── Dockerfile
-│   ├── README.md
-│   ├── components
-│   ├── next-env.d.ts
-│   ├── next.config.js
-│   ├── node_modules
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── pages
-│   ├── postcss.config.js
-│   ├── public
-│   ├── recoil
-│   ├── styles
-│   ├── tailwind.config.js
-│   └── tsconfig.json
-├── nginx
-│   └── nginx.conf
-└── nginx.conf
+📦root
+ ┣ 📂InceptionV3-model
+ ┃ ┣ 📜inception_fine_tuning.ipynb
+ ┃ ┣ 📜README.md
+ ┃ ┗ 📜requirements.txt
+ ┣ 📂predict_and_lime
+ ┃ ┣ 📜lime_original.png
+ ┃ ┣ 📜lime_red_masking.png
+ ┃ ┣ 📜lime_skelton.png
+ ┃ ┣ 📜original_image.png
+ ┃ ┣ 📜predict.ipynb
+ ┃ ┣ 📜predict_module.py
+ ┃ ┣ 📜README.md
+ ┃ ┗ 📜requirements.txt
+ ┣ 📂preprocessing
+ ┃ ┣ 📜preprocess.ipynb
+ ┃ ┣ 📜README.md
+ ┃ ┗ 📜requirements.txt
+ ┣ 📂ResNet50V2-model
+ ┃ ┣ 📜fine_tuning.ipynb
+ ┃ ┣ 📜README.md
+ ┃ ┗ 📜requirements.txt
+ ┣ 📜confusion_matrix.png
+ ┣ 📜PPT_README.md
+ ┗ 📜README.md
 ```
 
 
