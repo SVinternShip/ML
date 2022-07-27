@@ -12,7 +12,12 @@
 Our service was created through the AI Application Development by Silicon Valley Engineering program organized by Headstart Silicon Valley.
 http://www.learnflagly.com/courses/347/
 
-
+## 2. Installation Process
+- Requires a computer with an nvidia GPU.
+```
+$ git clone https://github.com/SVinternShip/ML
+$ pip3 install requirements.txt
+```
 
 ```README.md directory```
 
