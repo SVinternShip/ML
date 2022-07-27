@@ -19,6 +19,9 @@ $ git clone https://github.com/SVinternShip/ML
 $ pip3 install requirements.txt
 ```
 
+## 3. Getting Started
+- Please complete the Cuda installation and requirements installation
+
 ```README.md directory```
 
 ```
@@ -29,6 +32,39 @@ $ pip3 install requirements.txt
   predict_and_lime
 
   preprocessing
+```
+## 4. File Manifest && API
+```
+├── README.md
+├── backend
+│   ├── ai
+│   ├── api
+│   ├── db.sqlite3
+│   ├── dockerfile
+│   ├── lego2me
+│   ├── manage.py
+│   └── requirements.txt
+├── docker-compose.prod.yml
+├── docker-compose.yml
+├── frontend
+│   ├── Dockerfile
+│   ├── README.md
+│   ├── components
+│   ├── next-env.d.ts
+│   ├── next.config.js
+│   ├── node_modules
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── pages
+│   ├── postcss.config.js
+│   ├── public
+│   ├── recoil
+│   ├── styles
+│   ├── tailwind.config.js
+│   └── tsconfig.json
+├── nginx
+│   └── nginx.conf
+└── nginx.conf
 ```
 
 
